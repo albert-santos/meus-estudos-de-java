@@ -55,4 +55,11 @@ public class Curso {
 		return Collections.unmodifiableSet(alunos);
 	}
 
+	public boolean EstaMatriculado(Aluno aluno) {
+		
+		return this.alunos.contains(aluno);
+	}
+	
+
+
 }

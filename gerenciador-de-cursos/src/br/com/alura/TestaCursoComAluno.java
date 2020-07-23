@@ -22,6 +22,15 @@ public class TestaCursoComAluno {
 			System.out.println(a);
 		});
 		
+		System.out.println("O aluno " + a1 + "esta matriculado");
+		System.out.println(javaColecoes.EstaMatriculado(a1));
+		
+		Aluno albert = new Aluno("Albert Santos", 32457);
+		System.out.println(javaColecoes.EstaMatriculado(albert));
+		
+		System.out.println("O a1 é equals ao Albert?");
+		System.out.println(a1.equals(albert));
+		
 		
 	}
 }
